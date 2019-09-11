@@ -46,11 +46,5 @@ namespace mvc\Core;
                 $form[$key] = $this->secure_input($value);
             }
         }
-
-        // protected function convertToString($str)
-        // {
-        //     $str = "'" . $str . "'";
-        //     return $str;
-        // }
     }
 ?>
